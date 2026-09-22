@@ -150,7 +150,7 @@ app.get("/faturamento", (req, res) => {
     })
 });
 
-//inicia servidor
+// inicia servidor
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
